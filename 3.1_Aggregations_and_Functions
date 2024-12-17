@@ -1,0 +1,11 @@
+--Exercise 1: Aggregate Functions
+
+
+--Count the total number of customers in the Customer table.
+SELECT COUNT(*) as total_customer
+ FROM customer
+
+
+--Find the highest and lowest UnitPrice from the Products table.
+SELECT MAX(unitPrice) AS HighestPrice, MIN(unitPrice) AS MinPrice
+ FROM product
